@@ -1,14 +1,15 @@
 {
   "name": "fin-app-privat-bank-lib",
   "version": "0.0.1",
-  "description": "Api cLient for privat bank UA",
+  "description": "Api client for privat bank UA",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty-quick": "pretty-quick --staged"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "npm run pretty-quick"
     }
   },
   "author": "Ihor Rusinko",
