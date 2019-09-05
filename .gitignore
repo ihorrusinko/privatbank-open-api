@@ -1,0 +1,8 @@
+.env
+/node_modules/*
+/.idea/
+*.xml
+*.rdb
+*.xml
+.DS_Store
+npm-debug.log
